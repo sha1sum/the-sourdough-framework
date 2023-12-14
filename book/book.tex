@@ -9,76 +9,18 @@
 \title{The Sourdough Framework}
 
 \begin{document}
-\input{cover/cover.tex}
-\titlepage
+%\input{cover/cover.tex}
 
 {%
 \hypersetup{hidelinks}
 \ifdefined\HCode\else\tableofcontents\fi
 }
 
-\chapter{ebook problems}
-Dès Noël, où un zéphyr haï me vêt de glaçons würmiens, je dîne d’exquis rôtis
-de bœuf au kir, à l’aÿ d’âge mûr, \&cætera.
-Jörg bäckt quasi zwei Haxenfüße vom Wildpony.
-
-\begin{flowchart}[!htb]
-\begin{center}
-  \input{figures/fig-dutch-oven-process.tex}
-  \caption[Baking process with a dutch oven]{A visualization of the baking
-      process using a dutch oven (DO). The dough is steamed for the first half
-      of the bake and then baked without cover for the second half of the
-      bake. The desired darkness and thickness of the crust depends on your
-      personal preference. Some bakers prefer a lighter crust and others a
-      darker.}%
-  \label{fig:dutch-oven-process}
-\end{center}
-\end{flowchart}
-
-At around  \qty{60}{\degreeCelsius} (\qty{140}{\degF}) the microbes in your
-dough start to die.  There are rumors that until this happens the microbes
-produce a lot of \ch{CO2}.
-
-\begin{figure}[!htb]
-\begin{center}
-  \input{figures/fig-ethanol-oxidation.tex}
-  \caption[Acetic acid creation]{Oxygen is required to create acetic
-      acid~\cite{acetic+acid+production}.}%
-  \label{fig:ethanol-oxidation}
-\end{center}
-
-\end{figure}
-
-\begin{figure}[!htb]
-  \includegraphics[width=\textwidth]{baking-experiment-temperatures.png}
-  \caption[Surface temperature for different steaming methods]{png file}
-\end{figure}
-
-\begin{figure}[!htb]
-  \includegraphics[width=\textwidth]{baking-process-steam.jpg}
-  \caption[Steam building with inverted tray]{jpg file}%
-      \label{flc:inverted-tray}
-\end{figure}
 If you're a hobby brewer, you'll know that it's important to keep your beer at
 certain temperatures to allow the different amylases to convert the contained
-starches into sugar~\cite{beer+amylase}.
+starches into sugar.
 This test, called the \emph{Iodine Starch Test}, involves mixing iodine into
 a sample of your brew and checking the color.
 
-\begin{table}[!htb]
-    \begin{center}
-        \input{tables/table-oven-baking-overview.tex}
-        \caption[Different oven types]{An overview of different oven types and their
-            different baking methods.}
-    \end{center}
-\end{table}
-\printbibliography
-{%
-\hypersetup{hidelinks}
-\listofflowcharts
-\listoftables
-\listoffigures
-}
-\printbibliography
 
 \end{document}
