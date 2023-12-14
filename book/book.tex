@@ -12,19 +12,18 @@
 %\input{cover/cover.tex}
 \titlepage
 
+{%
+ \hypersetup{hidelinks}
+ \ifdefined\HCode\else\tableofcontents\fi
+}
 
+\chapter{ebook ASCII}
 If you're a hobby brewer, you'll know that it's important to keep your beer at
 certain temperatures to allow the different amylases to convert the contained
 starches into sugar~\cite{beer+amylase}.
 This test, called the \emph{Iodine Starch Test}, involves mixing iodine into
 a sample of your brew and checking the color.
 
-{%
-\hypersetup{hidelinks}
-\listofflowcharts
-\listoftables
-\listoffigures
-}
 \printbibliography
 
 \end{document}
