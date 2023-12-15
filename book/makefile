@@ -59,9 +59,9 @@ ruby_pkg := ../website/Gemfile  ../website/Gemfile.lock
 
 tgt_figures := $(patsubst %.tex, %.png,$(src_figures))
 
-# Default target is not all because most of the time we just want a pdf...
-# and ebook take a long time to build.
-.DEFAULT_GOAL := build_serif_pdf
+# Default target is not all becuse most of the time we just want a pdf...
+# ebook take a long time to build.
+.DEFAULT_GOAL := build_ebook
 
 # Default rules for pdf and ebooks, getting overwritten when built in a
 # sub-directory
@@ -111,6 +111,7 @@ epub/bw_book.epub: copy_ebook_files $(bw_images)
 
 # Now with the rules
 # Expected usual rules first
+
 .PHONY: all
 all: bake
 

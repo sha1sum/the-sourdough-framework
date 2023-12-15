@@ -9,53 +9,36 @@
 \title{The Sourdough Framework}
 
 \begin{document}
-\input{cover/cover.tex}
+%\input{cover/cover.tex}
 \titlepage
 
-\frontmatter
 {%
-\hypersetup{hidelinks}
-\ifdefined\HCode\else\tableofcontents\fi
+ \hypersetup{hidelinks}
+ \ifdefined\HCode\else\tableofcontents\fi
 }
 
-\input{intro/foreword}
-\input{intro/preface}
-\input{intro/acknowledgements}
+\chapter{ebook UTF-8}
+Dès Noël, où un zéphyr haï me vêt de glaçons würmiens, je dîne d’exquis rôtis
+de bœuf au kir, à l’aÿ d’âge mûr, \&cætera.  Jörg bäckt quasi zwei Haxenfüße
+vom Wildpony.
 
-\mainmatter
+\chapter{ebook ASCII}
+If you're a hobby brewer, you'll know that it's important to keep your beer at
+certain temperatures to allow the different amylases to convert the contained
+starches into sugar~\cite{beer+amylase}.
+This test, called the \emph{Iodine Starch Test}, involves mixing iodine into
+a sample of your brew and checking the color.
 
-\input{history/sourdough-history}
+\chapter{ebook Pictures}
+\begin{figure}[!htb]
+  \includegraphics[width=\textwidth]{baking-experiment-temperatures.png}
+  \caption[Surface temperature for different steaming methods]{png file}
+\end{figure}
 
-\input{basics/how-sourdough-works}
-
-\input{sourdough-starter/sourdough-starter}
-
-\input{sourdough-starter/sourdough-starter-types}
-
-\input{flour-types/flour-types}
-
-\input{bread-types/bread-types}
-
-\chapter{Wheat sourdough}%
-\label{chapter:wheat-sourdough}
-\input{wheat-sourdough/wheat-sourdough}
-
-\input{non-wheat-sourdough/non-wheat-sourdough}
-
-% \input{mix-ins/mix-ins.tex}
-\input{baking/baking}
-
-\input{storing-bread/storing-bread}
-
-\chapter{Troubleshooting}
-\input{troubleshooting/misc}
-
-\backmatter
-\input{glossary/glossary}
 {%
 \hypersetup{hidelinks}
-\listofflowcharts
-\listoftables
+%\listofflowcharts
+%\listoftables
 \listoffigures
 }
 \printbibliography
